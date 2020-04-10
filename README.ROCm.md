@@ -1,5 +1,6 @@
 
-1.requirement for C++ extension
+# requirement for C++ extension
+1.porting tool : pyHIPFY
 
 https://github.com/HCYXAS/pyHIPIFY
 
@@ -7,13 +8,14 @@ https://github.com/HCYXAS/pyHIPIFY
 
 python3 setup.py install
 
-2. HIP_MODE for complie C++ extension
+2. c++ extension file 
 
 #source code
 
 https://github.com/HCYXAS/pytorch/blob/master/torch/utils/cpp_extension.py
 
-#usage
 
-ROCM_HOME=/opt/rocm python3 setup.py install
+# install detectron 
+
+ROCM_HOME=/opt/rocm python3 setup.py develop
 
